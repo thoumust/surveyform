@@ -1,7 +1,7 @@
 body {
   background-color: #281C2D;
   font-family: serif;
-  margin: 30px;
+  margin: 10px;
   width: 90%;
   height: 100vh;
 
@@ -9,7 +9,7 @@ body {
 .form {
   background-color:#C576F6;
   border-radius: 15px;
-  margin: 30% auto;
+  margin: 10% 12px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
-  margin: 0 auto;
+  margin: auto;
   padding-bottom: 2em;
   color: #281C2D;
 }
