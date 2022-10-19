@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<div class="form">
+<h1 id="title">Survey Form</h1>
+<p id="description">Please fill out this form with the required information.</p>
+<form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label">Enter your name:<input required id="name" type="text" placeholder="name"/></label>
+
+    <label for="email" id="email-label">Enter your email:<input required id="email" type="email" placeholder="email"/></label>
+
+    <label for="number" id="number-label">Enter your number:<input id="number" type="number" placeholder="number" min="8" max="16"/></label>
+  </fieldset>
+  <fieldset>
+    <label for="gender">
+    <select id="dropdown">
+      
+      <option>gender</option>
+      <option>male</option>
+      <option>female</option>
+      <option>transgender</option>
+      <option>bisexual</option>
+      <option>other</option>
+    </select>
+    </label>
+  </fieldset>
+  <fieldset>
+    <label for="first">
+    <input value="1" type="radio" name="group-1" class="inline"/>First Year College
+    </label>
+    <label for="second">
+    <input value="2" type="radio" name="group-1" class="inline"/>Second Year College
+    </label>
+    <label for="third">
+    <input value="1" type="radio" name="group-1" class="inline"/>Third Year College
+    </label>
+    <label for="fourth">
+    <input value="2" type="radio" name="group-1" class="inline"/>Fourth Year College
+    </label>
+    <label for="terms-and-conditions" name="terms-and-conditions">
+    <input type="checkbox" value="1" class="inline" name="terms-and-conditions"/> I agree with the terms and conditions.
+    </label>
+    <label for="receive-email" name="receive-email">
+    <input type="checkbox" value="2" class="inline" name="receive-email"/> I want to receive updates through my email.
+    <label>
+    </fieldset>
+    <textarea placeholder="comments" type="text"></textarea>
+    <button id="submit" type="submit">submit</button>
+  </form>
+  </div>
