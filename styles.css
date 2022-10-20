@@ -4,23 +4,22 @@ body {
   padding: 20px;
 }
 .form {
-  width: 80%;
+  width: 60vw;
   background-color: #C576F6;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
+  margin: 0 auto;
+  padding-bottom: 2em;
   max-width: 500px;
+  min-width: 300px;
   color: #281C2D;
   border-radius: 15px;
 }
 #survey-form {
   width: 40vw;
-  max-width: 250px;
-  min-width: 150px;
+  max-width: 300px;
+  min-width: 100px;
   margin: auto;
   padding-bottom: 2em;
   color: #281C2D;
-  display: flex;
 }
 h1, p {
   margin: 1em auto;
