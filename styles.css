@@ -1,12 +1,16 @@
 body {
   background-color: #281C2D;
   font-family: serif;
-  margin: 10px;
-  width: 45%;
-  height: 50vh;
+  margin-top: -9em;
+  margin-left: -15em;
+  width: 30em;
+  height: 182m;
   display: flex;
   align-items: center;
-
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border: 1px solid #281C2D;
 }
 .form {
   background-color:#C576F6;
