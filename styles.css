@@ -1,25 +1,17 @@
 body {
   background-color: #281C2D;
   font-family: serif;
-  margin-top: -9em;
-  margin-left: -15em;
-  width: 30em;
-  height: 182m;
-  display: flex;
-  align-items: center;
-  top: 50%;
-  left: 50%;
-  border: 1px solid #281C2D;
+  padding: 20px;
 }
 .form {
-  background-color:#C576F6;
-  border-radius: 15px;
-  margin: auto;
-  padding: 5px;
-  justify-content: center;
-  align-items: center;
+  width: 80%;
+  background-color: #C576F6;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
   color: #281C2D;
-  display: block;
+  border-radius: 15px;
 }
 #survey-form {
   width: 40vw;
@@ -48,7 +40,7 @@ input,
 textarea,
 select {
   margin: 10px 0 0 0;
-  width: 60%;
+  width: 100%;
   min-height: 2em;
   border-radius: 15px;
 }
@@ -61,6 +53,10 @@ input, textarea {
 #dropdown {
   color: #281C2D;
   background-color: #D7A1F9;
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 15px;
 }
 .inline {
   width: unset;
