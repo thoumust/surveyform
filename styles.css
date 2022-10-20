@@ -6,12 +6,12 @@ body {
 .form {
   width: 60vw;
   background-color: #C576F6;
-  margin: 0 auto;
-  padding-bottom: 2em;
+  margin: 45px auto;
+  padding: 2em;
   max-width: 500px;
   min-width: 300px;
   color: #281C2D;
-  border-radius: 15px;
+  border-radius: 55px;
 }
 #survey-form {
   width: 40vw;
@@ -22,7 +22,7 @@ body {
   color: #281C2D;
 }
 h1, p {
-  margin: 35px;
+  margin: 0 auto;
   text-align: center;
 }
 fieldset {
