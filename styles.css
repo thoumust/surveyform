@@ -7,7 +7,6 @@ body {
   height: 182m;
   display: flex;
   align-items: center;
-  position: fixed;
   top: 50%;
   left: 50%;
   border: 1px solid #281C2D;
@@ -20,14 +19,16 @@ body {
   justify-content: center;
   align-items: center;
   color: #281C2D;
+  display: block;
 }
-.survey-form {
+#survey-form {
   width: 40vw;
-  max-width: 150px;
-  min-width: 90px;
+  max-width: 250px;
+  min-width: 150px;
   margin: auto;
   padding-bottom: 2em;
   color: #281C2D;
+  display: flex;
 }
 h1, p {
   margin: 1em auto;
@@ -47,7 +48,7 @@ input,
 textarea,
 select {
   margin: 10px 0 0 0;
-  width: 100%;
+  width: 60%;
   min-height: 2em;
   border-radius: 15px;
 }
